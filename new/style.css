@@ -1,0 +1,44 @@
+.title{
+    background: yellow;
+    height: 10vh;
+}
+h1{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.container{
+    height: 86vh;
+    display: grid;
+    grid-template-columns: 80% 20%;  
+}
+
+.map{
+    background: white;
+}
+
+.row{
+    display: grid;
+    grid-auto-rows: 7% 43% 7% 43%;
+}
+
+.r1{background: purple;}
+.r2{background: wheat;}
+.r3{background: blue;}
+.r4{background: cadetblue;}
+
+.lista{
+	background-color: dimgray;
+	box-shadow: 5px 10px black;
+    height: 500px;
+    width: 15%;
+    float: left;
+}
+
+.stopka{
+    height: 4vh;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 10px 0px 0px 0px;
+}
