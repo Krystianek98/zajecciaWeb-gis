@@ -3,8 +3,12 @@ html, body{
 }
 
 .title{
-    background: yellow;
+    background: grey;
     height: 10vh;
+}
+.button{
+    background-color: darkgrey;
+    text-align: center;
 }
 h1{
     padding: 20px 0px 0px 0px;
@@ -12,19 +16,21 @@ h1{
 }
 
 .container{
-    height: 86vh;
+    /*height: 86vh;*/
     display: grid;
     grid-template-columns: 80% 20%;  
 }
 
 .map{
-    background: chartreuse;
-    height: 800px;
+    /*background: chartreuse;*/
+    height: 850px;
 }
 
 .row{
-    background: purple;
-    
+    background: darkgrey;
+}
+ul{
+    text-align: center;
 }
 
 

@@ -6,21 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zadanie na WebGis</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://js.arcgis.com/4.9/"></script>
-    <link rel="https://js.arcgis.com/4.9/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.14/"></script>
+    <link rel="https://js.arcgis.com/4.13/esri/css/main.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="title"><h1>Tytuł strony</h1></div>
-    <div class="container" >
+    <div class="title"><h1>Festiwale Muzyczne Świata</h1></div>
+    <div class="button">
         <button id= "przycisk1">Mapa satelitarna</button>
         <button id= "przycisk2">Mapa topograficzna</button>
         <button id= "przycisk3">Mapa OSM</button>
         <button id= "przycisk4">AGOL</button>
-
-            <div class="map" id="mapid"></div>
- 
-            <div class="row">test</div>
+    </div>
+    <div class="container" >
+        
+        <div class="map" id="mapid"></div>
+       
+        <div class="row">
+            <ul>
+                <li><h3>Fuji Rock, Japonia</h3></li>
+                <p>Uważa się, że festiwal ten jest położony w najbardziej malowniczym plenerze. 
+                    Od 1997 roku Na Fujji Rock możemy posłuchać zachodniego rocka, często przy wsparciu rodzimych japońskich gwiazd.</p>
+                <li><h3>Wacken Open Air, Niemcy</h3></li>
+                <p>Co roku około 80, 000 fanów metalu gromadzi się w zwyczajnym cichym niemieckim miasteczku Wacken, 
+                    aby wspólnie bawić się na wielu koncertach. Większość z ogromnej ilości podgatunków nowoczesnego metalu 
+                    zostaje zaprezentowana właśnie tutaj. 
+                    Słuchacze to najbardziej zróżnicowany pod względem gustu muzycznego tłum.</p>
+                <li><h3>Sziget Festival</h3></li>
+                <p>Jeden z największych festiwali muzycznych w Europie, który odbywa się w lipcu lub sierpniu w Budapeszcie 
+                    od 1993 roku. Miejscem festiwalu jest wyspa Óbudai na Dunaju.</p>
+                <li><h3>Festiwal Pol'and'Rock</h3></li>
+                <p>To coroczny festiwal muzyki rockowej w Polsce inspirowany przez Woodstock Festival . Festiwal odbywa się 
+                    od 1995 r. W 2009 r. Woodstock Festival Poland zgromadził ponad 400 000 osób, Średnia frekwencja w ciągu ostatnich czterech 
+                    lat wynosi 625 000 osób. Od 11. edycji festiwalu organizatorzy nazwali to 
+                    wydarzenie „największym festiwalem pod gołym niebem w Europie”.</p>
+            </ul>
+        </div>
     </div>
     <div class="stopka">
         Copyright &copy; Krystian Mocny 2020
